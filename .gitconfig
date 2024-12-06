@@ -1,0 +1,9 @@
+[user]
+	email = datasaver1234@gmail.com
+	name = kobayashiharuto
+[core]
+	editor = vim
+[init]
+	defaultBranch = main
+[pull]
+	rebase = false
