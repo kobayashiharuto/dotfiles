@@ -48,7 +48,6 @@ IS_READY=1
 command_ok "git" || IS_READY=0
 command_ok "vim" || IS_READY=0
 command_ok "curl" || IS_READY=0
-command_ok "zsh" || IS_READY=0
 command_ok "tmux" || IS_READY=0
 if [ $IS_READY -eq 0 ]; then
     echo "[abort]   check required tools"
